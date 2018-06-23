@@ -401,3 +401,6 @@ footer{
 #inside_wrapper:hover{
     cursor: pointer;
 }
+body{
+    background-color: gainsboro;
+}
