@@ -44,7 +44,7 @@ nav a:hover{
     position: fixed;
     left: 0;
     top: 0;
-    height: 35%;
+    height: 20%;
     z-index: 1;
     width: 100%;
 }
@@ -58,7 +58,7 @@ nav a:hover{
     display: block;
     height: 40px;
     width: 100%;
-    top: 35%;
+    top: 20%;
 }
 .logo{
     display: block;
@@ -168,7 +168,7 @@ nav a:hover{
 /*-----------head-----------------*/
 #slideshow img{
     left: 0;
-    top: 35%;
+    top: 20%;
     position: absolute;
     height: 80%;
     width: 100%;
@@ -239,7 +239,6 @@ footer{
     width: 100%;
 }
 #left_col{
-    margin-top: 10%;
     width: 40%;
     float: left;
     overflow: hidden;
@@ -265,7 +264,6 @@ footer{
     height: 50%;
     float: left;
     margin-left: 5%;
-    margin-top: 10%;
 }
 .imgexcept{
     margin-top: 10px;
@@ -323,7 +321,7 @@ footer{
 }
 #outside_home{
     position: absolute;
-    top: 1470px;
+    top: 1370px;
     left: 0;
     display: block;
     margin: 0 auto;
@@ -335,7 +333,7 @@ footer{
 }
 #footer{
     display: block;
-    margin-top: 52%;
+    margin-top: 45%;
     background-color: #0d4732;
     height: 90px;
     color: white;
@@ -395,7 +393,7 @@ footer{
     height: 170px;
     width: 510px;
     position: absolute;
-    top: 1280px;
+    top: 1170px;
     left: 20px;
 }
 #inside_wrapper:hover{
