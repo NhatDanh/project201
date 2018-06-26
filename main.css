@@ -2,7 +2,7 @@
     display: none;
 }
 #contactonline a{
-    display: none;
+    display: inline-block;
 }
 #ab{
     display: none;
