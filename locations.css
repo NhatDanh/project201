@@ -107,20 +107,11 @@
 .fa-search{
     color: gainsboro;
 }
-#locations{
-    font-size: 25px;
-    font-style: italic;
-    position: absolute;
-    left: 580px;
-    top: 270px;
-    color: white;
-}
-/*-----------head-----------------*/
 body{
     background-color: gainsboro;
 }
 .bar-logo{
-    background-image: url(img/logo.jpg);
+    background-image: url("img/logo.jpg");
     width: 100%;
     height: 200px;
     position: relative;
@@ -147,96 +138,86 @@ nav a{
     color: white;
     text-decoration: none;
 }
-#body-wrapper div:nth-of-type(1) img{
+#locations{
+    font-size: 25px;
+    font-style: italic;
+    position: absolute;
+    left: 580px;
+    top: 270px;
+    color: white;
+}
+/*-------------------------------end of head---------------------------------*/
+#inside_wrapper{
+    display: block;
+    margin: 0 auto;
+}
+#center{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+#inside_center{
+    margin: 0 auto;
+    width: 90%;
+    display: block;
+    text-align: justify;
+}
+.child_inside_center{
+    position: relative;
+    border: 1px solid burlywood;
+    width: 49%;
+    display: inline-block;
+    height: 200px;
+    /* display: table-cell; */
+}
+.child_inside_center img{
     float: left;
-    margin-left: 10px;
-    display: block;
+    height: 140px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
-#div-1-child{
-    margin-bottom: 100px;
-    display: block;
-    margin-left: 700px;
-}
-#body-wrapper div:nth-of-type(1) div h2 span{
-    color: brown;
-}
-#body-wrapper div:nth-of-type(1) div h2{
-    border-top: 1px dashed black;
-    padding-top: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 300px;
-}
-.child-div{
-    margin-bottom: 50px;
-    width: 400px;
-}
-#body-wrapper div:nth-of-type(1)::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-#body-wrapper div:nth-of-type(2){
-    display: block;
-}
-#body-wrapper div:nth-of-type(2) h2{
-    border-top: 1px dashed black;
-    padding-top: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 250px;
-}
-#body-wrapper div:nth-of-type(2) h2 span{
-    color: brown;
-}
-#body-wrapper div:nth-of-type(2) img{
-    float: right;
-    margin-right: 50px;
-}
-#child-2{
-    margin-left: 30px;
-}
-#child-child-2 div:first-child{
-    height: 80px;
-}
-#child-child-2 div{
-    width: 400px;
-}
-#body-wrapper div:nth-of-type(2)::after{
+.child_inside_center::after{
     content: '';
     clear: both;
     display: block;
 }
-#body-wrapper div:nth-of-type(3){
+#inside_center::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.child_cic{
     margin-top: 50px;
+    height: 100px;
 }
-#body-wrapper div:nth-of-type(3) img{
-    float: left;
-    margin-left: 20px;
+.child_cic p{
+    display: block;
 }
-#child-3 ul{
-    list-style-type: none;
+.child_cic h3{
+    font-size: 20px;
 }
-#child-3{
-    margin-left: 550px;
+.child_cic div:last-child{
+    position: absolute;
+    border: 1px solid burlywood;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 30px;
+    left: 380px;
+    top: 120px;
 }
-#child-3 h2{
-    border-top: 1px dashed black;
-    padding-top: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 250px;
+.child_cic div:last-child:hover{
+    color: white;
+    background-color: burlywood;
+    cursor: pointer;
 }
-#child-3 h2 span{
-    color: brown;
+#empty{
+    visibility: hidden;
 }
-#child-3 ul{
-    margin-bottom: 20px;
-}
-#child-3 ul li span{
-    color: brown;
-}
-/*----------------------------------footer-------------------------------*/
+/*------------------------footer-----------------------------------------*/
 #footer{
     display: block;
     margin-top: 5%;
