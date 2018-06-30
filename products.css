@@ -84,6 +84,7 @@
     margin: 13px auto;
     box-shadow: inset 0 0 0 3px black;
     transition: color 0.25s;
+    color: black;
 }
 .same-child::before,
 .same-child::after {
