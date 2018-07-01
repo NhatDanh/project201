@@ -74,6 +74,10 @@
 #pp{
     display: none;
 }
+#abc{
+    width: 50%;
+    margin: 0 auto;
+}
 @media screen and (min-width: 800px){
     #tlj{
         height: 80px;
