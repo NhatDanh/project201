@@ -71,11 +71,20 @@
 }
 #product{
     position: absolute;
-    left: 41%;
-    top: 2080px;
+    left: 40%;
+    top: 2070px;
     color: white;
     font-size: 1.875em;
     font-style: italic;
+}
+.nav-logo{
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 50%;
+    top: 2130px;
+    z-index: 3000;
 }
 @media screen and (min-width: 744px){
 .same-child{
@@ -140,6 +149,12 @@
 #product{
     left: 46%;
 }
+.nav-logo{
+    width: 300px;
+    height: 100px;
+    left: 78%;
+    top: 2130px;
+}
 }
 /*------------------------------end-----------------------------------------*/
 *, html{
@@ -163,15 +178,6 @@
     top: 50%;
     transform: translate(-50%, -50%);
     width: 130px;
-}
-.nav-logo{
-    display: block;
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    left: 1000px;
-    top: 2130px;
-    z-index: 3000;
 }
 nav a{
     color: white;
