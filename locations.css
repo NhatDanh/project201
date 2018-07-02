@@ -30,10 +30,10 @@
 .nav-logo{
     display: block;
     position: absolute;
-    width: 210px;
+    width: 220px;
     height: 100px;
     top: 370px;
-    left: 50%;
+    left: 40%;
 }
 #wrapper{
     margin-top: 150px;
