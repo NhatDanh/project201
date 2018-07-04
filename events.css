@@ -1,3 +1,103 @@
+#child-head nav{
+    display: none;
+}
+#ab{
+    display: none;
+}
+#tlj{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+#events{
+    font-size: 25px;
+    font-style: italic;
+    position: absolute;
+    left: 42%;
+    top: 270px;
+    color: white;
+}
+.nav-logo{
+    display: block;
+    position: absolute;
+    width: 210px;
+    height: 100px;
+    top: 330px;
+    left: 49%;
+}
+#wrapper{
+    margin-top: 120px;
+    width: 100%;
+}
+.child-wrapper{
+    width: 100%;
+    text-align: center;
+}
+#pp{
+    display: none;
+}
+@media screen and (min-width: 1280px){
+    #tlj{
+        width: 30%;
+        font-size: 50px;
+        margin: 0 auto;
+    }
+    #ab{
+        display: block;
+        width: 500px;
+        font-size: 50px;
+        margin: 0 auto;
+    }
+    #child-head nav{
+        float: left;
+        display: block;
+    }
+    #events{
+        left: 47%;   
+    }
+    .nav-logo{
+        left: 80%;
+    }
+    #wrapper{
+        width: 80%;
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    .child-wrapper img{
+        width: 100%;
+        /* float: left; */
+    }
+    .child-wrapper{
+        margin: 0;
+        float: left;
+        margin: 5px;
+        width: 26.66666666666667%;
+    } 
+    .child-wrapper:hover{
+        cursor: pointer;
+    }
+    .child-wrapper div{
+        margin-bottom: 10px;
+        background-color: white;
+    }
+    .child-wrapper div div:last-child{
+        text-align: center;
+        font-style: bold;
+        font-size: 15px;
+    }
+    #child1-wrapper::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+    #pp{
+        display: block;
+        position: absolute;
+        left: 88%;
+        top: 18px;
+    }
+}
 *, html{
     box-sizing: border-box;
     margin: 0;
@@ -9,9 +109,6 @@
     background-color: #0d4732;
     height: 160px;
     width: 100%;
-}
-#child-head nav{
-    float: left;
 }
 #child-head::after{
     content: '';
@@ -25,16 +122,6 @@
 }
 #tlj, #ab{
     color: white;
-}
-#tlj{
-    width: 400px;
-    font-size: 50px;
-    margin: 0 auto;
-}
-#ab{
-    width: 500px;
-    font-size: 50px;
-    margin: 0 auto;
 }
 #contactonline-child a{
     float: right;
@@ -136,61 +223,13 @@ body{
     transform: translate(-50%, -50%);
     width: 130px;
 }
-.nav-logo{
-    display: block;
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    top: 330px;
-    left: 80%;
-}
 nav a{
     color: white;
     text-decoration: none;
 }
-#events{
-    font-size: 25px;
-    font-style: italic;
-    position: absolute;
-    left: 600px;
-    top: 270px;
-    color: white;
-}
 /*------------------------------end of head--------------------------------*/
-#wrapper{
-    width: 80%;
-    margin-top: 200px;
-    margin-left: 200px;
-}
 #child1-wrapper{
     width: 100%;
-}
-.child-wrapper img{
-    width: 100%;
-    /* float: left; */
-}
-.child-wrapper{
-    margin: 0;
-    float: left;
-    margin: 5px;
-    width: 26.66666666666667%;
-} 
-.child-wrapper:hover{
-    cursor: pointer;
-}
-.child-wrapper div{
-    margin-bottom: 10px;
-    background-color: white;
-}
-.child-wrapper div div:last-child{
-    text-align: center;
-    font-style: bold;
-    font-size: 15px;
-}
-#child1-wrapper::after{
-    content: '';
-    clear: both;
-    display: block;
 }
 .readmore{
     display: block;
@@ -220,11 +259,6 @@ nav a{
 }
 #footer_child{
     float: left;
-}
-#pp{
-    position: absolute;
-    left: 88%;
-    top: 18px;
 }
 
 
