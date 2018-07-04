@@ -235,7 +235,7 @@ body{
     margin-right: 25%;
     height:60%;
     width: auto;
-    background-color: whitesmoke;
+    background-color: white;
 }
 .body_main{
     border:8px;
@@ -282,9 +282,37 @@ p{
     display: block;
     width: 100%;
     border: none;
-    background-color:darkgrey;
+    background-color:whitesmoke;
     padding: 8px;
     color: gray;
     cursor: pointer;
     text-align: left;
+}
+#myDIV1 {
+    width: 100%;
+    padding: ;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+#myDIV2 {
+    width: 100%;
+    padding: ;
+    text-align: center;
+    background-color: white;
+    margin-top: 20px;
+}
+#myDIV3 {
+    width: 100%;
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+h6{
+    color: gray;
+}
+.font{
+    padding: 8px;
+    font-size: 11px;
 }
