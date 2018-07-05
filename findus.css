@@ -93,6 +93,8 @@ nav a:hover{
     text-decoration: underline;
 }
 .fab{
+    font-size: 30px;
+    margin-left: 10px;
     width: 5px;
     height: 5px;
     margin-right: 10px;
@@ -153,7 +155,7 @@ nav a:hover{
     display: inline-block;
     margin-left: 2px;
     font-weight: bold;
-    color: black;
+    color: gainsboro;
     line-height: 40px;
     margin-left: 10px;
     width: 100px;
