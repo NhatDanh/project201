@@ -234,8 +234,8 @@ body{
 #body_wrapper{
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     height:60%;
     width: auto;
     background-color: white;
@@ -250,7 +250,7 @@ body{
     
 }
 .imgcenter{
-    transform:translate(3.4%)
+    transform:translate(10.5%)
 }
 .button {
     background-color:darkkhaki;
@@ -352,6 +352,6 @@ h5{
 }
 .font{
     padding: 8px;
-    font-size: 11px;
+    font-size: 14px;
     color: dimgray;
 }
