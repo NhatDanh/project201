@@ -92,6 +92,8 @@ nav a:hover{
     text-decoration: underline;
 }
 .fab{
+    font-size: 30px;
+    margin-left: 10px;
     width: 5px;
     height: 5px;
     margin-right: 10px;
