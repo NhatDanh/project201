@@ -152,7 +152,7 @@ nav a:hover{
     display: inline-block;
     margin-left: 2px;
     font-weight: bold;
-    color: black;
+    color: gainsboro;
     line-height: 40px;
     margin-left: 10px;
     width: 100px;
@@ -274,7 +274,7 @@ p{
 .opening{
      position: absolute;
     bottom: 2%;
-    right: 0.5%;
+    right: 0.2%;
     color: white;
     transform: translate(-50%, -50%);
 }
