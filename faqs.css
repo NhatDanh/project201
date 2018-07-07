@@ -18,7 +18,8 @@
     top: 81%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white
+    color: white;
+    font-size: 20px;
 }
 
 .HOME {
