@@ -83,14 +83,21 @@ nav a:hover{
     text-decoration: underline;
 }
 #contactonline{
+    margin-top: 30px;
+}
+#contactonline-child a{
     float: right;
-    margin-right: 5%;
-}
-#contactonline a{
+    margin-right: 10px;
     color: white;
+    width: 50px;
 }
-#contactonline a:hover{
-    text-decoration: underline;
+#contactonline-child a i{
+    font-size: 31px;
+}
+#contactonline-child::after{
+    content: '';
+    clear: both;
+    display: block;
 }
 .fab{
     font-size: 30px;
@@ -135,14 +142,14 @@ nav a:hover{
 #tlj{
     width: 60%;
     position: absolute;
-    font-size: 60px;
+    font-size: 50px;
     top: 35%;
     left: 62%;
     transform: translate(-50%, -50%);
 }
 #ab{
     position: absolute;
-    font-size: 60px;
+    font-size: 50px;
     width: 70%;
     top: 75%;
     left: 59%;
@@ -156,7 +163,7 @@ nav a:hover{
     margin-left: 2px;
     font-weight: bold;
     color: gainsboro;
-    line-height: 40px;
+    line-height: 35px;
     margin-left: 10px;
     width: 100px;
 }
