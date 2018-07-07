@@ -1,3 +1,90 @@
+#tlj{
+    width: 80%;
+    position: absolute;
+    font-size: 40px;
+    top: 35%;
+    left: 10%;
+}
+#ab{
+    display: none;
+}
+#child-head nav{
+    display: none;
+}
+#profile_child{
+    text-align: center;
+}
+.image2{
+    position: absolute;
+    top: 200px;
+    left: 38%;
+}
+#child-parent{
+    width: 500px;
+}
+.HOME {
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+}
+.careers2{
+    position: absolute;
+    bottom: 2%;
+    left: 80%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.opening{
+    position: absolute;
+    bottom: 2%;
+    left: 95%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+@media screen and (min-width: 1280px){
+    #tlj{
+        width: 60%;
+        position: absolute;
+        font-size: 50px;
+        top: 35%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+    }
+    #ab{
+        display: block;
+        position: absolute;
+        font-size: 50px;
+        width: 70%;
+        top: 75%;
+        left: 66%;
+        transform: translate(-50%, -50%);
+    }
+    #child-head nav{
+        display: block;
+    }
+    #profile_child{
+        text-align: center;
+    }
+    .image2{
+        left: 46%;
+    }
+    .careers2{
+        left: 85%;
+    }
+    .opening{
+        left: 90%;
+    }
+    .HOME{
+        left: 79%;
+    }
+    .careers2,
+    .opening, 
+    .HOME{
+        transform: translate(-50%, -50%);
+    }
+}
 .parent {
   position: relative;
   top: 0;
@@ -8,11 +95,6 @@
   top: 0;
   left: 0;
 }
-.image2 {
-  position: absolute;
-  top: 200px;
-  left: 580px
-}
 .centered {
     position: absolute;
     top: 81%;
@@ -22,13 +104,6 @@
     font-size: 20px;
 }
 
-.HOME {
-    color: white;
-    position: absolute;
-    bottom: 2%;
-    right: 10%;
-    transform: translate(-50%, -50%);
-}
 .CAREERS {
     color: white;
     position: absolute;
@@ -54,10 +129,10 @@
     height: 350px;
 }
 
-.special::after {
+/* .special::after {
   content:'/'; 
   color: white;
-}
+} */
 .row1{
     float: left;
 }
@@ -121,32 +196,13 @@ nav a:hover{
     z-index: 1;
     position: absolute;
     display: block;
-    height: 40px;
+    height: 100px;
     width: 100%;
     top: 20%;
 }
 .logo{
     display: block;
     color: white;
-}
-#tlj{
-    width: 60%;
-    position: absolute;
-    font-size: 50px;
-    top: 35%;
-    left: 62%;
-    transform: translate(-50%, -50%);
-}
-#ab{
-    position: absolute;
-    font-size: 50px;
-    width: 70%;
-    top: 75%;
-    left: 59%;
-    transform: translate(-50%, -50%);
-}
-#profile_child{
-    text-align: center;
 }
 #profile_child a{
     display: inline-block;
@@ -264,20 +320,7 @@ body{
 p{
     font-size: 11px;
 }
-.careers2{
-    position: absolute;
-    bottom: 2%;
-    right: 0.5%;
-    color: white;
-    transform: translate(-50%, -50%);
-}
-.opening{
-     position: absolute;
-    bottom: 2%;
-    right: 0.2%;
-    color: white;
-    transform: translate(-50%, -50%);
-}
+
 .block {
     display: block;
     width: 100%;
@@ -351,4 +394,12 @@ h5{
     padding: 8px;
     font-size: 14px;
     color: dimgray;
+}
+#child-head a{
+    color: white;
+    margin-right: 10px;
+}
+.icon{
+    font-size: 40px;
+    float: right;
 }
