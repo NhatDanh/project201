@@ -43,7 +43,78 @@
     color: white;
     transform: translate(-50%, -50%);
 }
+#myDIV1 {
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#myDIV2 {
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#myDIV3 {
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#myDIV4 {
+    width: 100%;
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#myDIV5 {
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#myDIV6 {
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#myDIV7 {
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#myDIV8 {
+    margin-left: 15px;
+    padding: 8px;
+    background-color: white;
+
+}
+#body_wrapper{
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height:60%;
+    width: 90%;
+    background-color: white;
+}
+.imgcenter{
+    width: 90%;
+    margin: 0 auto;
+}
+.imgcenter img{
+    width: 100%;
+    margin-right: 50px;
+}
+#pp{
+    display: none;
+}
 @media screen and (min-width: 1280px){
+    #body_wrapper{
+        width: 60%;
+    }
     #tlj{
         width: 60%;
         position: absolute;
@@ -83,6 +154,22 @@
     .opening, 
     .HOME{
         transform: translate(-50%, -50%);
+    }
+    #myDIV1,
+    #myDIV2,
+    #myDIV3,
+    #myDIV4,
+    #myDIV5,
+    #myDIV6,
+    #myDIV7,
+    #myDIV8{
+        width: 100%;
+    }
+    #pp{
+        display: block;
+        position: absolute;
+        left: 88%;
+        top: 18px;
     }
 }
 .parent {
@@ -284,26 +371,13 @@ nav a:hover{
 body{
     background-color: gainsboro;
 }
-#body_wrapper{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
-    height:60%;
-    width: auto;
-    background-color: white;
-}
 .body_main{
     border:8px;
     border-style: double;
     border-color: darkgray;
     padding: 25px;
     margin: 25px;
-    height: 60%;
-    
-}
-.imgcenter{
-    transform:translate(10.5%)
+    height: 60%;  
 }
 .button {
     background-color:darkkhaki;
@@ -331,62 +405,6 @@ p{
     cursor: pointer;
     text-align: left;
 }
-#myDIV1 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
-#myDIV2 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
-#myDIV3 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
-#myDIV4 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
-#myDIV5 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
-#myDIV6 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
-#myDIV7 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
-#myDIV8 {
-    width: 100%;
-    margin-left: 15px;
-    padding: 8px;
-    background-color: white;
-
-}
 h5{
     color: dimgrey;
 }
@@ -402,4 +420,15 @@ h5{
 .icon{
     font-size: 40px;
     float: right;
+}
+#footer{
+    display: block;
+    margin-top: 5%;
+    background-color: #0d4732;
+    height: 100px;
+    color: white;
+    position: relative;
+}
+#footer_child{
+    float: left;
 }
