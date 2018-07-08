@@ -66,6 +66,9 @@
     height: 500px;
     width: 90%;
 }
+#pp{
+    display: none;
+}
 @media screen and (min-width: 1280px){
     #body_wrapper{
         width: 70%;
@@ -129,6 +132,9 @@
     }  
     #body_wrapper{
         height: 60%;
+    }
+    #pp{
+        display: block;
     }
 }
 .parent {
@@ -309,4 +315,8 @@ body{
 }
 p{
     font-size: 14px;
+}
+#pp{
+    float: right;
+    margin-right: 20px;
 }

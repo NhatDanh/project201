@@ -1,17 +1,151 @@
+#tlj{
+    width: 80%;
+    position: absolute;
+    font-size: 40px;
+    top: 35%;
+    left: 10%;
+}
+#ab{
+    display: none;
+}
+#child-head nav{
+    display: none;
+}
+#profile_child{
+    text-align: center;
+}
+.image2{
+    position: absolute;
+    top: 200px;
+    left: 38%;
+}
+#child-parent{
+    width: 500px;
+}
+.HOME {
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+.careers2{
+    position: absolute;
+    bottom: 2%;
+    left: 73%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.opening{
+    width: 100px;
+    position: absolute;
+    bottom: 2%;
+    left: 92%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.image2{
+    position: absolute;
+    top: 200px;
+    left: 36%;
+}
+#body_wrapper{
+    margin: 20px auto;
+    height: 60%;
+    width: 90%;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.box{
+    background-color: whitesmoke;
+    border: 10px ;
+    border-style: double;
+    border-color:dimgray;
+    padding: 25px;
+    margin: 20px auto;
+    height: 500px;
+    width: 90%;
+}
+#pp{
+    display: none;
+}
+@media screen and (min-width: 1280px){
+    #body_wrapper{
+        width: 70%;
+    }
+    .box{
+        height: 280px;
+    }
+    #tlj{
+        width: 60%;
+        position: absolute;
+        font-size: 50px;
+        top: 35%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+    }
+    #ab{
+        display: block;
+        position: absolute;
+        font-size: 50px;
+        width: 70%;
+        top: 75%;
+        left: 66%;
+        transform: translate(-50%, -50%);
+    }
+    #child-head nav{
+        display: block;
+    }
+    #profile_child{
+        text-align: center;
+    }
+    .image2{
+        left: 46%;
+    }
+    .careers2{
+        left: 87.5%;
+    }
+    .opening{
+        left: 93%;
+    }
+    .HOME{
+        left: 82.25%;
+    }
+    .careers2,
+    .opening, 
+    .HOME{
+        transform: translate(-50%, -50%);
+    }
+    nav a{
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+    }
+    #child-head::after{
+        content: '';
+        clear: both;
+        display: block;
+    }
+     #child-head nav{
+        float: left;
+        display: block;
+    }  
+    #body_wrapper{
+        height: 60%;
+    }
+    #pp{
+        display: block;
+    }
+}
 .parent {
   position: relative;
   top: 0;
   left: 0;
 }
 .image1 {
-position: relative
+  position: relative;
   top: 0;
   left: 0;
-}
-.image2 {
-  position: absolute;
-  top: 200px;
-  left: 580px
 }
 .centered {
     position: absolute;
@@ -121,29 +255,13 @@ nav a:hover{
     z-index: 1;
     position: absolute;
     display: block;
-    height: 40px;
+    height: 100px;
     width: 100%;
     top: 20%;
 }
 .logo{
     display: block;
     color: white;
-}
-#tlj{
-    width: 60%;
-    position: absolute;
-    font-size: 50px;
-    top: 35%;
-    left: 62%;
-    transform: translate(-50%, -50%);
-}
-#ab{
-    position: absolute;
-    font-size: 50px;
-    width: 70%;
-    top: 75%;
-    left: 59%;
-    transform: translate(-50%, -50%);
 }
 #profile_child{
     text-align: center;
@@ -218,7 +336,7 @@ nav a:hover{
     display: block;
     margin-top: 0%;
     background-color: #0d4732;
-    height: 90px;
+    height: 100px;
     color: white;
     position: relative;
 }
@@ -227,15 +345,6 @@ nav a:hover{
 }
 body{
     background-color: gainsboro;
-}
-#body_wrapper{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
-    height:60%;
-    width: auto;
-    background-color: white;
 }
 .body_main{
     border:8px;
@@ -247,7 +356,11 @@ body{
     
 }
 .imgcenter{
-    transform:translate(3.4%)
+    width: 90%;
+    margin: 0 auto;
+}
+.imgcenter img{
+    width: 100%;
 }
 .button {
     background-color:darkkhaki;
@@ -290,14 +403,12 @@ p{
 }
 #myDIV1 {
     width: 100%;
-    padding: ;
     text-align: center;
     background-color: white;
     margin-top: 20px;
 }
 #myDIV2 {
     width: 100%;
-    padding: ;
     text-align: center;
     background-color: white;
     margin-top: 20px;
@@ -315,4 +426,8 @@ h6{
 .font{
     padding: 8px;
     font-size: 11px;
+}
+#pp{
+    float: right;
+    margin-right: 20px;
 }
