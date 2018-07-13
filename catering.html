@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tous Les Jours Bakery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="catering.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <script>
+         var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <div id="head">
+            <div id="child-head">
+                <nav>
+                    <a href="contactus.html">CONTACT US</a>
+                    <a href="findus.html">FIND US</a>
+                    <a href="">CATERING</a>
+                </nav>
+                <div id="contactonline-child">
+                    <a href="https://www.facebook.com/TousLesJoursUSA" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com/TousLesJoursUSA" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="contactonline">
+                <div class="logo" id="tlj">TOUS les JOURS</div>
+                <div class="logo" id="ab">AUTHENTIC BAKERY</div>
+            </div>
+        </div>
+        <div id="profile">
+            <div id="profile_child">
+                <a id="OURSTORY" href="ourstory.html">OURSTORY</a>
+                <a id="PRODUCTS" href="products.html">PRODUCTS</a>
+                <a id="LOCATIONS" href="locations.html">LOCATIONS</a>
+                <a id="EVENTS" href="events.html">EVENTS</a>
+                <a id="FRANCHISE" href="faqs.html">FRANCHISE</a>
+                <a id="CAREERS" href="careers.html">CAREERS</a>
+                <!-- <i class="fas fa-search"></i> -->
+            </div>
+        </div>
+        <div class="parent">
+            <img class="image1" src="img/bg.jpg" alt="background" height="180"/>
+        </div>
+
+        <!--body-->
+        <section id="body_wrapper">
+            <div>
+                <div class="imgcenter">
+                    <img src="img/catering-02-768x143.jpg">
+                </div>
+                <div class="introduction">
+                <center>From a company lunch to just a simple gathering with your friends, Tous les Jours has a solution for you!</center>
+                <center>Our catering menu offers a variety of sandwiches and pastries of your choice.</center>
+                <center>Add a coffee box to complete the perfect catering menu!</center>
+                <center>Our sandwiches and mini pastries are specially made in small size so you can enjoy them in a group.</center>
+                <center>Please fill in the below information if you would like to place an order!</center>
+                    </div>
+                <form class="body_main">
+                    <div class="slideshow">
+                    <div class="slideshow-container">
+        <div class=" mySlides fade ">
+            <img src="img/catering-web-slide-05.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/catering-web-slide-06.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/catering-web-slide-04.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/catering-web-slide-01.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="img/catering-web-slide-07.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+              </div>    
+                    <div class="orderform">
+                        <h5>1.Choose Order Form</h5>
+                        <table>
+                        <tr>
+                            <td>
+                        <p>Sandwich Box (S): $20
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                            </td>
+                            <td>
+                            <p >Sandwich Box (L): $34
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                            </td>
+                            </tr>
+                            <tr>
+                        <td>
+                        <p>Mini Pastry Box (S): $15
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                                </td>
+                                <td>
+                        <p>Mini Pastry Box (L): $22
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                                </td>
+                                </tr>
+                            <tr>
+                            <td>
+                        <p>Fruit Cup Box (S): $18
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                            </td>
+                            <td>
+                            <p>Fruit Cup Box (L): $27
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                            </td>
+                            </tr>
+                            <tr>
+                        <td>
+                        <p>Spoonable Cake Box (S): $21
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                                </td>
+                                <td>
+                        <p>Spoonable Cake Box (L): $40
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                                </td>
+                                </tr>
+                            <tr>
+                        <td>
+                        <p>Piece Cake Box: $50
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                                </td>
+                                <td>
+                        <p>Coffee Box: $18
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 130px;padding: 3px;color: gray;">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            </select>
+                        <br>
+                            </p>
+                                </td>
+                                </tr>
+                            &nbsp;
+                        </table>
+                        &nbsp;
+                        <hr>
+                        <h5>2. Your info</h5>
+                        <table>
+                            <tr>
+                            <td>
+                        <p>Name
+                        <br>
+                        <input class="outline" type="text" name="name" size="10" style="background-color: ghostwhite">
+                        <br>
+                            </p>
+                            </td>
+                            <td>
+                            <p >Age
+                        <br>
+                        <input class="outline" type="text" size="10" name="name"  style="background-color: ghostwhite">
+                        <br>
+                            </p>
+                            </td>   
+                        <td>
+                        <p>Email
+                        <br>
+                        <input class="outline" type="text" name="name" size="10" style="background-color: ghostwhite">
+                        <br>
+                            </p>
+                                </td>
+                                </tr>
+                            &nbsp;
+                        </table>
+                        &nbsp;
+                        <hr>
+                        <h5>3. Pick up</h5>
+                        <table>
+                        <tr>
+                            <td>
+                        <p>Date
+                        <br>
+                        <input type="date" name="date" size="31" style="background-color: ghostwhite;width: 238px;color: gray;">
+                        <br>
+                            </p>
+                            </td>
+                            <td>
+                            <p >Time
+                        <br>
+                        <select name="cakes"  style="background-color: ghostwhite;width: 65px;padding: 2px; color: gray;">
+                            <option value="0">---</option>
+                            <option value="1">9:00 AM</option>
+                            <option value="2">10:00 AM</option>
+                            <option value="3">11:00 AM</option>
+                            <option value="4">12:00 PM</option>
+                            <option value="5">13:00 PM</option>
+                            <option value="6">14:00 PM</option>
+                            <option value="7">15:00 PM</option>
+                            <option value="8">16:00 PM</option>
+                            <option value="9">17:00 PM</option>
+                            </select>
+                        <br>
+                            </p>
+                            </td>
+                            </tr>
+                            <tr>
+                                &nbsp;
+                        </table>
+                        &nbsp;
+                        <hr>
+                        <h5>4. Comments</h5>
+                        <br>
+                        <textarea class="outline" rows="8" cols="41"></textarea> &nbsp;
+                        <p>
+                            <button class="button">SUBMIT</button>
+                        </p>
+                        
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--footer-->
+        <div id="footer">
+            <div id="footer_child">
+                <div>Copyright © TOUS les JOURS International Corp. All rights reserved</div>
+                <div>TOUS les JOURS International Corp.(Main Office) | Address: 6832 E Slauson Ave., Commerce, CA 90040 | Phone:
+                    323-480-9177 | Fax: 323-597-2496</div>
+            </div>
+            <div id="pp">PRIVACY POLICY</div>
+            <a href="#" id="toTop">
+                <span id="toTopHover"></span>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
