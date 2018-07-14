@@ -392,12 +392,8 @@ p{
         }
 
         .mySlides {
-       display:none;
+        display:none;
         }
-
-        img {;
-        }
-
         /* Slideshow container */
 .slideshow{
     float: left;
