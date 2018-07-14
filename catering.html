@@ -10,38 +10,7 @@
     <link rel="stylesheet" href="fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <script>
-         var slideIndex = 1;
-        showSlides(slideIndex);
 
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-    </script>
 </head>
 
 <body>
@@ -62,7 +31,6 @@
                     </a>
                 </div>
             </div>
-            
             <div id="contactonline">
                 <div class="logo" id="tlj">TOUS les JOURS</div>
                 <div class="logo" id="ab">AUTHENTIC BAKERY</div>
@@ -80,7 +48,7 @@
             </div>
         </div>
         <div class="parent">
-            <img class="image1" src="img/bg.jpg" alt="background" height="180"/>
+            <img class="image1" src="img/bg.jpg" alt="background" height="180" />
         </div>
 
         <!--body-->
@@ -90,262 +58,258 @@
                     <img src="img/catering-02-768x143.jpg">
                 </div>
                 <div class="introduction">
-                <center>From a company lunch to just a simple gathering with your friends, Tous les Jours has a solution for you!</center>
-                <center>Our catering menu offers a variety of sandwiches and pastries of your choice.</center>
-                <center>Add a coffee box to complete the perfect catering menu!</center>
-                <center>Our sandwiches and mini pastries are specially made in small size so you can enjoy them in a group.</center>
-                <center>Please fill in the below information if you would like to place an order!</center>
-                    </div>
+                    <center>From a company lunch to just a simple gathering with your friends, Tous les Jours has a solution for
+                        you!
+                    </center>
+                    <center>Our catering menu offers a variety of sandwiches and pastries of your choice.</center>
+                    <center>Add a coffee box to complete the perfect catering menu!</center>
+                    <center>Our sandwiches and mini pastries are specially made in small size so you can enjoy them in a group.</center>
+                    <center>Please fill in the below information if you would like to place an order!</center>
+                </div>
                 <form class="body_main">
                     <div class="slideshow">
-                    <div class="slideshow-container">
-        <div class=" mySlides fade ">
-            <img src="img/catering-web-slide-05.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-        <div class="mySlides fade">
-            <img src="img/catering-web-slide-06.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
+                        <div class="slideshow-container">
+                            <div class=" mySlides fade ">
+                                <img src="img/catering-web-slide-05.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="img/catering-web-slide-06.jpg" style="width:100%">
+                            </div>
 
-        <div class="mySlides fade">
-            <img src="img/catering-web-slide-04.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-        <div class="mySlides fade">
-            <img src="img/catering-web-slide-01.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-        <div class="mySlides fade">
-            <img src="img/catering-web-slide-07.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <br>
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-    </div>
-              </div>    
+                            <div class="mySlides fade">
+                                <img src="img/catering-web-slide-04.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="img/catering-web-slide-01.jpg" style="width:100%">
+                            </div>
+                            <div class="mySlides fade">
+                                <img src="img/catering-web-slide-07.jpg" style="width:100%">
+                            </div>
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </div>
+                        <br>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                        </div>
+                    </div>
                     <div class="orderform">
                         <h5>1.Choose Order Form</h5>
-                        <table cellspacing="20">
-                        <tr>
-                            <td>
-                        <p>Sandwich Box (S): $20
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
-                            </td>
-                            <td>
-                            <p >Sandwich Box (L): $34
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
-                            </td>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p>Sandwich Box (S): $20
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Sandwich Box (L): $34
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
+                                </td>
                             </tr>
                             <tr>
-                        <td>
-                        <p>Mini Pastry Box (S): $15
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
+                                <td>
+                                    <p>Mini Pastry Box (S): $15
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
                                 </td>
                                 <td>
-                        <p>Mini Pastry Box (L): $22
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
+                                    <p>Mini Pastry Box (L): $22
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
                                 </td>
-                                </tr>
-                            <tr>
-                            <td>
-                        <p>Fruit Cup Box (S): $18
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
-                            </td>
-                            <td>
-                            <p>Fruit Cup Box (L): $27
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
-                            </td>
                             </tr>
                             <tr>
-                        <td>
-                        <p>Spoonable Cake Box (S): $21
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
+                                <td>
+                                    <p>Fruit Cup Box (S): $18
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
                                 </td>
                                 <td>
-                        <p>Spoonable Cake Box (L): $40
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
+                                    <p>Fruit Cup Box (L): $27
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
                                 </td>
-                                </tr>
+                            </tr>
                             <tr>
-                        <td>
-                        <p>Piece Cake Box: $50
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
+                                <td>
+                                    <p>Spoonable Cake Box (S): $21
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
                                 </td>
                                 <td>
-                        <p>Coffee Box: $18
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 200px;padding: 3px;color: gray;">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            </select>
-                        <br>
-                            </p>
+                                    <p>Spoonable Cake Box (L): $40
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
                                 </td>
-                                </tr>
-                            
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Piece Cake Box: $50
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Coffee Box: $18
+                                        <br>
+                                        <select name="cakes" class="choose">
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                        <br>
+                                    </p>
+                                </td>
+                            </tr>
+
                         </table>
                         <hr>
                         <h5>2. Your info</h5>
                         <table>
                             <tr>
-                            <td>
-                        <p>Name
-                        <br>
-                        <input class="outline" type="text" name="name" size="12" style="background-color: ghostwhite">
-                        <br>
-                            </p>
-                            </td>
-                            <td>
-                            <p >Age
-                        <br>
-                        <input class="outline" type="text" size="12" name="name"  style="background-color: ghostwhite">
-                        <br>
-                            </p>
-                            </td>   
-                        <td>
-                        <p>Email
-                        <br>
-                        <input class="outline" type="text" name="name" size="12" style="background-color: ghostwhite">
-                        <br>
-                            </p>
+                                <td>
+                                    <p>Name
+                                        <br>
+                                        <input class="outline" type="text" name="name" size="12" style="background-color: white">
+                                        <br>
+                                    </p>
                                 </td>
-                                </tr>
+                                <td>
+                                    <p>Age
+                                        <br>
+                                        <input class="outline" type="text" size="12" name="name" style="background-color: white">
+                                        <br>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Email
+                                        <br>
+                                        <input class="outline" type="text" name="name" size="12" style="background-color: white">
+                                        <br>
+                                    </p>
+                                </td>
+                            </tr>
                             &nbsp;
                         </table>
                         &nbsp;
                         <hr>
                         <h5>3. Pick up</h5>
-                        <table>
-                        <tr>
-                            <td>
-                        <p>Date
-                        <br>
-                        <input type="date" name="date" size="31" style="background-color: ghostwhite;width: 238px;color: gray;">
-                        <br>
-                            </p>
-                            </td>
-                            <td>
-                            <p >Time
-                        <br>
-                        <select name="cakes"  style="background-color: ghostwhite;width: 65px;padding: 2px; color: gray;">
-                            <option value="0">---</option>
-                            <option value="1">9:00 AM</option>
-                            <option value="2">10:00 AM</option>
-                            <option value="3">11:00 AM</option>
-                            <option value="4">12:00 PM</option>
-                            <option value="5">13:00 PM</option>
-                            <option value="6">14:00 PM</option>
-                            <option value="7">15:00 PM</option>
-                            <option value="8">16:00 PM</option>
-                            <option value="9">17:00 PM</option>
-                            </select>
-                        <br>
-                            </p>
-                            </td>
+                        <table id="time-date">
+                            <tr>
+                                <td>
+                                    <p>Date
+                                        <br>
+                                        <input class="date-time-child" type="date" name="date" style="background-color: white;color: gray;">
+                                        <br>
+                                    </p>
+                                </td>
+                                <td>
+                                    <p>Time
+                                        <br>
+                                        <select class="date-time-child" name="cakes" style="background-color: white;width: 65px;padding: 2px; color: gray;">
+                                            <option value="0">---</option>
+                                            <option value="1">9:00 AM</option>
+                                            <option value="2">10:00 AM</option>
+                                            <option value="3">11:00 AM</option>
+                                            <option value="4">12:00 PM</option>
+                                            <option value="5">13:00 PM</option>
+                                            <option value="6">14:00 PM</option>
+                                            <option value="7">15:00 PM</option>
+                                            <option value="8">16:00 PM</option>
+                                            <option value="9">17:00 PM</option>
+                                        </select>
+                                        <br>
+                                    </p>
+                                </td>
                             </tr>
                             <tr>
                                 &nbsp;
@@ -358,7 +322,7 @@
                         <p>
                             <button class="button">SUBMIT</button>
                         </p>
-                        
+
                     </div>
                 </form>
             </div>
@@ -376,6 +340,36 @@
             </a>
         </div>
     </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </body>
 
 </html>
