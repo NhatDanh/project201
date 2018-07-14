@@ -364,7 +364,7 @@ body{
 }
 
 p{
-    font-size: 13px;
+    font-size: 11px;
 }
 .careers2{
     position: absolute;
@@ -399,7 +399,7 @@ p{
     float: left;
 }
         .slideshow-container {
-            max-width: 300px;
+            max-width: 200px;
             position: relative;
             background-color: rgba(0, 255, 255, 0.26);
         }
